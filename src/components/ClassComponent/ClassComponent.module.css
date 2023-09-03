@@ -1,0 +1,54 @@
+.game {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px 30px 40px;
+}
+
+.result {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    display: block;
+}
+
+.input {
+    height: 30px;
+    width: 100px;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    transition-property: border-color, background-color, color;
+    transition-duration: 0.36s;
+    transition-timing-function: ease-in-out;
+}
+
+.btn:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
